@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('../fonts/Courier_Prime/courier-prime-webfont.woff') format('woff');
+}
+
+body{
+    font-family: 'CourierPrime'!important;
+}
+
+.main-bg{
+    background-color: #B3B8EC;
+}
+
+.blue{
+    color: #0000FE;
+}
+
+.white{
+    color: #fff;
+}
+
+.font-25{
+    font-size: 20px;
+}
+
+.font-12{
+    font-size: 12px;;
+}
+
+#email-input,
+input[type='text'],
+select{
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 5px 10px #888;
+    background-color: #B3B8EC;
+    padding-left: 15px;
+}
+
+select{
+    width: 200px;
+    color: rgba(0, 0, 254, 0.5);
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+#email-input::placeholder{
+    font-size: 16px;
+}
+
+.btn-start{
+    background-color: #0000FE;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+}

@@ -1,0 +1,20 @@
+TEXT
+curl -s -X POST \
+-d '{"version": "5c7d5dc6dd8bf75c1acaa8565735e7986bc5b66206b55cca93cb72c9bf15ccaa", "input": {"text": "david"}}' \
+-H "Authorization: Token 68d56162915aeed3d131dd1655126d19d2ca6f0b" \
+-H 'Content-Type: application/json' \
+https://api.replicate.com/v1/predictions
+
+
+PROMPT
+curl -s -X POST \
+  -d '{"version": "f178fa7a1ae43a9a9af01b833b9d2ecf97b1bcb0acfd2dc5dd04895e042863f1", 
+    "input": {"prompt": "a photo of an astronaut riding a horse on mars"}}' \
+  -H "Authorization: Token 68d56162915aeed3d131dd1655126d19d2ca6f0b" \
+  -H 'Content-Type: application/json' \
+  "https://api.replicate.com/v1/predictions"
+
+
+curl -s \
+-H "Authorization: Token 68d56162915aeed3d131dd1655126d19d2ca6f0b" \
+"https://api.replicate.com/v1/predictions/qa2vgpxycnhn5hzuexef754kuy"
